@@ -46,8 +46,35 @@
 
 /* orange gradient  */
 /* .gradient-people01 {
-  background: rgba(red, green, blue, alpha);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  bottom: 3rem;
+  right: 0;
+  background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(244, 56, 98) 100.2%);
+  filter: blur(50px);
 } */
+
+/* .gradient-people03 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 0rem;
+  left: 3rem;
+  background: radial-gradient(circle at 10% 20%, rgb(2, 12, 16) 0%, rgb(143, 10, 114) 100.7%);
+  filter: blur(50px);
+} */
+
+/* .gradient-people02 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 0rem;
+  left: 4rem;;
+  background: url('/pink-blur.png');
+  /* background: radial-gradient(circle at 10% 20%, rgb(158, 89, 198) 0%, rgb(255, 158, 223) 100%); */
+  /* filter: blur(50px); */
+
 
 .glassmorphism {
   background: rgba(255, 255, 255, 0.25);

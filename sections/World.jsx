@@ -14,19 +14,19 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People In The MetaVerse!" />
+      <TypingText title="| People In The MetaVerse!" textStyles="text-center" />
       <TitleText
-        title={(
+        title={
           <>
             Track friends around you and invite them to play together in the
             same MetaVerse
           </>
-        )}
+        }
         textStyles="text-center"
       />
 
       <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
+        variants={fadeIn("up", "tween", 0.3, 1)}
         className="mt-[68px] flex w-full h-[550px] relative"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
@@ -37,6 +37,7 @@ const World = () => (
             alt="people"
             className="w-[70px] h-[70px] p-[6px] rounded-full relative left-[22%] top-[6%]"
           />
+          <div className="w-full h-full bg-[url('/orange-blur.png')] object-contain rounded-full relative bottom-[5rem]" />
         </div>
 
         <div className="top-20 rounded-full absolute left-20 w-[100px] h-[100px] bg-[url('/pin.png')] ">
@@ -45,6 +46,7 @@ const World = () => (
             alt="people"
             className="w-[70px] h-[70px] p-[6px] rounded-full relative left-[22%] top-[6%]"
           />
+          <div className="w-full h-full bg-[url('/pink-blur.png')] object-contain rounded-full relative bottom-[5rem]" />
         </div>
 
         <div className="top-1/2 rounded-full absolute right-[45%] w-[100px] h-[100px] bg-[url('/pin.png')] ">
@@ -53,6 +55,7 @@ const World = () => (
             alt="people"
             className="w-[70px] h-[70px] p-[6px] rounded-full relative left-[22%] top-[6%]"
           />
+          <div className="w-full h-full bg-[url('/blue-blur.png')] object-contain rounded-full relative bottom-[5rem]" />
         </div>
       </motion.div>
     </motion.div>

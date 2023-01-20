@@ -2,7 +2,7 @@ import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
 
-  <div>
+  <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
 
     <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>
       <img
@@ -12,9 +12,9 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       />
     </div>
 
-    <h1 className="mt-[26px] font-bold text-white leading-[30px] text-[24px]">{title}</h1>
+    <h1 className="mt-[26px] font-bold text-white leading-[30.24px] text-[24px]">{title}</h1>
 
-    <p className="flex-1 mt-[16px] font-normal text-[18px] text-[#b0b0b0] leading-[32px]">{subtitle}</p>
+    <p className="flex-1 mt-[16px] font-normal text-[18px] text-[#b0b0b0] leading-[32.4px]">{subtitle}</p>
 
   </div>
 );
