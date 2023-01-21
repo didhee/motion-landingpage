@@ -16,17 +16,17 @@ const World = () => (
     >
       <TypingText title="| People In The MetaVerse!" textStyles="text-center" />
       <TitleText
-        title={
+        title={(
           <>
             Track friends around you and invite them to play together in the
             same MetaVerse
           </>
-        }
+        )}
         textStyles="text-center"
       />
 
       <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
         className="mt-[68px] flex w-full h-[550px] relative"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
