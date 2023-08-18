@@ -31,7 +31,7 @@ const World = () => (
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
 
-        <div className="bounce-animation bottom-20 absolute right-20 w-[100px] h-[100px] bg-[url('/pin.png')]">
+        <div className="bounce-animation-variant bottom-20 absolute right-20 w-[100px] h-[100px] bg-[url('/pin.png')]">
           <img
             src="/people-01.png"
             alt="people"
